@@ -5,6 +5,8 @@ const Doc = () => {
   const { params = [] } = router.query;
   console.log(params);
 
+  // http://localhost:3000/docs/feature2/concept1
+
   if (params.length === 2) {
     return (
       <h1>
